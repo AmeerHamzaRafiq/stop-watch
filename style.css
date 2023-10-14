@@ -1,0 +1,116 @@
+body {
+  background: #000;
+}
+
+.h1{
+  color: #ffa807f5;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Lobster', sans-serif;
+}
+
+.dive {
+  font-size: 600%;
+  color: #000000;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff,
+      0 0 40px #000000, 0 0 50px #000000, 0 0 60px #000000, 0 0 70px #000000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #000000, 0 0 40px #000000,
+      0 0 50px #050505, 0 0 60px #ffffff, 0 0 70px #000000, 0 0 80px #000000;
+  }
+}
+
+.unit {
+  font-family: 'Lobster', sans-serif;
+  color: #fff;
+  font-size: 145%;
+  padding-top: 0 .4%;
+  text-align: center;
+}
+
+
+.btn{
+  padding-top: 8%;
+  text-align: center;
+   font-family: 'Lobster', sans-serif;
+}
+
+
+/* strat btn */
+
+.startButton{
+  transition-duration: 0.1s;
+  height: 40px;
+  width: 90px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.startButton:hover {
+  border: solid 1px;
+  border-radius: 5%;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: #4CAF50; /* Green */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Lobster', sans-serif;
+}
+
+/* stop btn */
+.stopButton{
+  transition-duration: 0.1s;
+  height: 40px;
+  width: 90px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.stopButton:hover {
+  border: solid 1px;
+  border-radius: 5%;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: #ff0000; /* Green */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Lobster', sans-serif;
+}
+
+
+/* reset btn */
+
+
+.resetButton{
+  transition-duration: 0.1s;
+  height: 40px;
+  width: 90px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.resetButton:hover {
+  border: solid 1px;
+  border-radius: 5%;
+  border: none;
+  width: 120px;
+  height: 40px;
+  background-color: #ffc400; /* Green */
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: 'Lobster', sans-serif;
+}
+
+.h6{
+  margin-top: 3%;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
