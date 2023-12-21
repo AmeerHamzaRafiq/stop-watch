@@ -1,7 +1,8 @@
-let hours = 0;
-let minutes = 0;
-let second = 0;
 let millisecond = 0;
+let second = 0;
+let minutes = 0;
+let hours = 0;
+
 let intervel;
 const dive = document.querySelectorAll('.dive')[0];
 const startButton = document.querySelector('.startButton');
@@ -10,11 +11,10 @@ const resetButton = document.querySelector('.resetButton');
 
 
 
-
 const incrementTime = () => {
-
-    millisecond += 10;
-    if (millisecond >= 100) {
+    
+    millisecond += 1; 
+    if (millisecond >= 25) {
         millisecond = 0;
         second += 1;
         if (second >= 60) {
@@ -28,9 +28,6 @@ const incrementTime = () => {
     } 
     updateDisplay();
 };
-
-
-
 
 startButton.addEventListener('click' , ()=> {
     intervel = setInterval(incrementTime);
